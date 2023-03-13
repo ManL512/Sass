@@ -1,0 +1,39 @@
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    background-color: burlywood;
+  }
+  
+  a:hover{
+    color: #1746A2;
+    background-color: #5F9DF7 ;
+  }
+/*   
+
+
+El menú está contenido dentro de una etiqueta <nav>.
+Utilizamos una lista desordenada <ul> para crear el menú, y cada elemento del menú se representa mediante una etiqueta <li>.
+Aplicamos un estilo CSS a la etiqueta <nav> para establecer un fondo gris claro y agregar un relleno de 10 píxeles alrededor del menú.
+Establecemos el estilo CSS de la etiqueta <ul> para quitar los estilos de lista predeterminados, eliminar los márgenes y rellenos predeterminados, y hacer que los elementos del menú se muestren en línea utilizando la propiedad "flex".
+Establecemos el estilo CSS de la etiqueta <li> para eliminar los márgenes predeterminados.
+Establecemos el estilo CSS de la etiqueta <a> para que se muestren como bloques, agregando un relleno de 10 píxeles en la parte superior e inferior y 20 píxeles en la izquierda y derecha, y establecemos el color del texto en negro.*/
